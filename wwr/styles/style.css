@@ -1,14 +1,21 @@
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+    :root {
+
+    /* change the values below to your chosen font(s) */
+    --heading-font: 'Roboto', sans-serif;
+    --paragraph-font: 'Lato', sans-serif;
 
 }
 
-nav a {
-    text-align: center;
-    text-decoration: none;
 
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#hero-img {
+    width: 100%;
 }
 
 #hero-msg h1,
@@ -27,22 +34,33 @@ main section {
 
 }
 
-#background {
-    height: 725px;
+main section img {
+    box-sizing: border-box;
 }
-
+            
 
 
 body {
     background-color: white;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     background-color: whitesmoke;
 }
 
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+    color: rgb(166, 57, 57);
+
+}
+
 nav a:hover {
-    background-color: blue;
+    background-color: black;
     color: beige;
 }
 
@@ -51,6 +69,10 @@ book,
     background-color: whitesmoke;
     color: burlywood;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover,
@@ -64,64 +86,94 @@ book,
 
 }
 
+#logo {
+    padding-top: 5px;
+
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 
 }
 
 #background {
     background-color: lightblue;
+    height: 725px;
+}
+
+
+
+.home-title {
+    /*background-color: blue;*/
+    color: rgb(166, 57, 57);
+    font-family: var(--heading-font);
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+h4 {
+   /*background-color: blueviolet;*/
+    color: black;
+
+}
+
+h2 {
+    margin: 0;
+}
+
+.msg h2 {
+    /*background-color: white;*/
+    color: beige;
+    font-family: var(--heading-font);
+
+}
+
+.msg p {
+    background-color: brown;
+    color: whitesmoke;
+    font-size: .8em;
+    padding-bottom: 15px;
+
 }
 
 .msg {
     background-color: brown;
     color: darkcyan;
+    line-height: 1.5em;
+    padding: 35px;
 }
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
 
 footer {
     background-color: whitesmoke;
     color: black;
-}
-
-
-.home-title {
-    background-color:blue;
-    color: cornsilk;
-
-}
-
-h4 {
-    background-color: blueviolet;
-    color: white;
-
-}
-
-.msg h2 {
-    background-color: white;
-    color: blue;
-
-}
-
-.msg p {
-    background-color:brown;
-    color: whitesmoke;
-
+    margin-top: 200px;
+    padding: 25px 50px;
 }
 
 footer a {
-    background-color: rosybrown;
+    /*background-color: rosybrown;*/
     color: black;
     text-decoration: none;
 
 }
 
 footer a:hover {
-    background-color:white ;
+    background-color: white;
     color: brown;
 
-}
-#hero-img {
-    width: 100%;
 }
 
 footer p {
@@ -130,4 +182,8 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
-} 
+}
+
+footer .social img {
+    padding-top: 15px;
+}
