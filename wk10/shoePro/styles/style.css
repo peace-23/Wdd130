@@ -1,0 +1,187 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+
+
+/* Header Styles */
+header {
+    background-color: white;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Logo Styles */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 150px; /* Set the width of your logo */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 10px; /* Add spacing to the right of the logo */
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* Navigation Styles */
+nav {
+    /* background-color: #444; */
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav a {
+    color: brown;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+nav a:hover {
+    /* text-decoration: underline; */
+    color: #ff3366;
+
+}
+
+
+
+/* Hero Section Styles */
+.hero {
+    background: url('images/hero-image.jpg') center/cover no-repeat; /* Replace with your actual hero image */
+    color: rgb(73, 11, 143);
+    text-align: center;
+    padding: 5em 0;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff3366; /* Your desired call-to-action button color */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* --------Home--------- */
+
+.hero img {
+    width: 100%;
+    height: auto
+
+  }
+  
+  .content-section {
+    text-align: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content img {
+    max-width: 45%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  }
+  
+  .text-content {
+    max-width: 45%;
+    text-align: center;
+    color: brown
+  }
+  
+
+/* --------Store--------- */
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.shoe {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    width: 300px;
+}
+
+/* Apply a general style to all images within the shoe container */
+.shoe img {
+    max-width: 100%; /* Ensure images don't exceed the container width */
+    height: auto;   /* Maintain aspect ratio */
+}
+
+/* Style for the thumbnail-sized images */
+.shoe {
+    /* width: 150px;    /* Set a fixed width for the thumbnail container */
+    /* height: 150px;   Set a fixed height for the thumbnail container */ 
+    overflow: hidden; /* Hide any overflow to keep a consistent size */
+    margin-bottom: 20px; /* Add some spacing between thumbnails */
+    border: 1px solid #ddd; /* Add a border for a clean look */
+    border-radius: 5px; /* Optional: Add rounded corners */
+}
+
+/* Center the text within the thumbnail container */
+.shoe h2,
+.shoe p {
+    text-align: center;
+    margin: 5px 0; /* Add some spacing between text and edges */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 2em 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer-social {
+    margin-top: 20px;
+}
+
+.footer-social a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
