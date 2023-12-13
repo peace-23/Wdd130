@@ -157,6 +157,62 @@ section {
 }
 
 
+
+/* --------About Us--------- */
+
+/* About Section Styles */
+.about-section {
+    background-color: #fff;
+    padding: 4em 2em;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    
+}
+
+.about-section p {
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* Contact Section Styles */
+.contact-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    text-align: center;
+}
+
+.contact-item {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item img {
+    width: 100px; /* Set the width of icon images */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.contact-item p {
+    font-size: 1.2em;
+    color: #666;
+    margin: 0;
+}
+
+/* --------Footer--------- */
+
 footer {
     background-color: #333;
     color: white;
@@ -166,7 +222,7 @@ footer {
 
 .footer-links {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
 }
 
